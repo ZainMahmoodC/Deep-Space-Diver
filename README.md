@@ -10,25 +10,32 @@ You can play our game by clicking this link [Deep Space Diver]: https://zainmahm
 
 Do you want to be a part of this project? Well, here’s how you can start!
 
-### What we used
 
-We used Javascript for our game. You can use any Javascript editor that you like. But you have to have a local server running to test play the game. Webstorm gave us a solution.
+### What We Used
 
-### Download Webstorm
+We built this game using JavaScript. You can use any IDE which supports JavaScript development, a terminal, and a local server.
+
+This project uses [Yarn](https://yarnpkg.com) for dependency management, which will need to be installed as well.
+
+### Popular IDEs
 
 We used [Webstorm](https://www.jetbrains.com/webstorm/download) for our project that it supports built-in local server. Also, if you’re student, you can download the full version with your student account.
 
-We use [yarn](https://yarnpkg.com) for dependency management, so you'll need to install that as well.
+You can also use [VS Code](https://code.visualstudio.com/download). In which case, you will have to install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for testing.
 
-### Clone with Webstorm
+### Setup the Repository
 
-Click ‘VCS’ >> ‘Check out from Version Control’ >> Git in Webstorm start menu. Log in to your github account. Copy our github repository URL and paste it to ‘Git Repository URL’ textbox.
+Open a terminal and clone the repository using your preferred method. Ensure Yarn is installed on your machine, and then run:
 
-After you clone it, WebStorm should pop up a message in the bottom right asking if you want to install dependencies using yarn - say yes if it does. If it doesn't ask, just open the `package.json` file and it will pop up the message.
+```bash
+yarn install
+```
 
-### Running the game on Webstorm
+### Running the game
 
-Webstorm has its own local server. Open index.html in Webstorm and on the upper-right side, click on the brower icon you want to run.
+To run the game locally:
+- Webstorm has its own local server. Open the `index.html` file, and click on the browser icon in the top-right corner.
+- For VS Code, after installing the Live Server extension, open the `index.html` file, right click anywhere in the editor, and click `Open with Live Server`.
 
 ### Phaser Documentation
 
